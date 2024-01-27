@@ -120,3 +120,213 @@
     width: 100px;
     text-align: center;
 }
+
+/* Flex-flow */
+
+.flex-conteiner8{
+    display: flex;
+    background-color: lightblue;
+    flex-flow: row wrap;
+}
+
+.flex-conteiner8>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* justify-content = center */
+.flex-conteiner9{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.flex-conteiner9>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* justify-content = flex-start */
+
+.flex-conteiner10{
+    display: flex;
+    background-color: lightblue;
+    justify-content: flex-start;
+}
+
+.flex-conteiner10>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* justify-content = flex-end */
+
+.flex-conteiner11{
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightblue;
+}
+
+.flex-conteiner11>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* justify-content = space-between */
+
+.flex-conteiner12{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+.flex-conteiner12>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* justify-content = space-around */
+
+.flex-conteiner13{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+
+.flex-conteiner13>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* align-items = center */
+
+.flex-conteiner14{
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    height: 200px;
+}
+
+.flex-conteiner14>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* align-items = flex-start */
+
+.flex-conteiner15{
+    display: flex;
+    align-items: flex-start;
+    background-color: lightblue;
+    height: 200px;
+}
+
+.flex-conteiner15>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* align-items = flex-end */
+
+.flex-conteiner16{
+    display: flex;
+    align-items: flex-end;
+    background-color: lightblue;
+    height: 200px;
+}
+
+.flex-conteiner16>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* align-items = stretch */
+
+.flex-conteiner17{
+    display: flex;
+    align-items: stretch;
+    background-color: lightblue;
+    height: 200px;
+}
+
+.flex-conteiner17>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* align-items = baseline */
+
+.flex-conteiner18{
+    display: flex;
+    background-color: lightblue;
+    height: 200px;
+    align-items: baseline;
+}
+
+.flex-conteiner18>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* align-content = space-between */
+
+.flex-conteiner19{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: space-between;
+    background-color: lightblue;
+}
+
+.flex-conteiner19>div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
